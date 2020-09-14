@@ -97,7 +97,7 @@
 	<div class="text">
 		<p>Hey there! I’m a fullstack web developer with a strong UI background.</p>
 		<p>I develop complex and beautiful web and native applications with a variety of web frameworks and technlogies.</p>
-		<p>I also write articles. Check them out <a href="https://dev.to/emnudge">here!</a></p>
+		<p>I also write articles. You can <a href="https://dev.to/emnudge">read some of them here!</a></p>
 	</div>
 </PageSection>
 
@@ -128,10 +128,10 @@
 <PageSection jumbotron={true}>
 	<div class="text">
 		<h1>Articles</h1>
-		<p>While I will ocassionally post articles to my website over <a href="/blog">here</a>, they are usually rather general in scope or taken from one of my better posts elsewhere.</p>
+		<p>While I will ocassionally post <a href="/blog">articles to my website, they are usually rather general in scope or taken from one of my better posts elsewhere.</p>
 		<p>For more coding-specific articles, I tend to post to <a href="https://dev.to/emnudge">dev.to</a> as they often get a lot more attention, which is something I prefer when trying to teach coding.</p>
 	</div>
-	<a href="https://dev.to/emnudge" class="dev-paper">
+	<a href="https://dev.to/emnudge" class="dev-paper" aria-label="dev paper icon link">
 		<Paper />
 	</a>
 </PageSection>
