@@ -128,7 +128,7 @@
 <PageSection jumbotron={true}>
 	<div class="text">
 		<h1>Articles</h1>
-		<p>While I will ocassionally post <a href="/blog">articles to my website, they are usually rather general in scope or taken from one of my better posts elsewhere.</p>
+		<p>While I will ocassionally post <a href="/blog">articles to my website</a>, they are usually rather general in scope or taken from one of my better posts elsewhere.</p>
 		<p>For more coding-specific articles, I tend to post to <a href="https://dev.to/emnudge">dev.to</a> as they often get a lot more attention, which is something I prefer when trying to teach coding.</p>
 	</div>
 	<a href="https://dev.to/emnudge" class="dev-paper" aria-label="dev paper icon link">
