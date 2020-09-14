@@ -1,0 +1,67 @@
+/* syntax highlighting */
+pre.language-js, pre.language-javascript {
+	background: #1E1E1E;
+	padding: 20px;
+	border-radius: 4px;
+	color: #4FC1F1;
+}
+pre.language-js .keyword, 
+pre.language-javascript .keyword { color: #d97ac9; }
+pre.language-js .number, 
+pre.language-javascript .number { color: #B5CE89; }
+pre.language-js .string, 
+pre.language-javascript .string { color: #CE723B; }
+pre.language-js .function, 
+pre.language-javascript .function { color: #DCDCAA; }
+pre.language-js .comment, 
+pre.language-javascript .comment { color: #6A9949; }
+pre.language-js .punctuation, 
+pre.language-javascript .punctuation { color: white; }
+pre.language-js .operator, pre.language-javascript .operator, 
+pre.language-js .literal, pre.language-javascript .literal { color: #569CD6; }
+
+code {
+  background: #1E1E1E;
+  border-radius: 4px;
+  padding: 4px;
+}
+pre code {
+  background: none;
+  padding: 0;
+}
+
+blockquote {
+  border-left: 6px solid white;
+  margin-left: -20px;
+  padding: 5px 20px;
+  padding-right: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: .7;
+  font-size: 1.5em;
+
+  display: grid;
+  grid-gap: 10px;
+}
+blockquote pre {
+  font-size: .7em;
+}
+blockquote p { margin: 0; }
+blockquote cite {
+  font-size: .8em;
+  display: block;
+  padding-top: 15px;
+}
+blockquote cite:before {
+  content: '- ';
+}
+
+article h1, article h2, article h3 {
+  margin-top: 40px;
+}
+
+article figure {
+  padding: 0 10px;
+}
+article img {
+  max-width: 100%;
+}

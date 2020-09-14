@@ -1,0 +1,6 @@
+author = "Martin Tournoij"
+title = "YAML: probably not so great after all"
+url = "https://www.arp242.net/yaml-config.html"
+description = "The case against everything but TOML"
+readAt = "Mar 4, 2020"
+createdAt = "Sep 16, 2016"

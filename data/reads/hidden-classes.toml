@@ -1,0 +1,6 @@
+author = "Alex Navasardyan"
+title = "Hidden classes in JavaScript and Inline Caching"
+url = "https://gist.github.com/twokul/9501770"
+description = "The secrets of V8 unwrapped"
+readAt = "Apr 27, 2020"
+createdAt = "Mar 12, 2014"

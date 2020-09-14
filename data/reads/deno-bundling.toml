@@ -1,0 +1,6 @@
+author = "Kitson Kelly"
+title = "Bundling in Deno"
+url = "https://www.kitsonkelly.com/posts/bundling-in-deno/"
+description = "Implementing bundling in a new JS environment"
+readAt = "Apr 28, 2020"
+createdAt = "Dec 10, 2019"
