@@ -1,6 +1,6 @@
 <script context="module">
 	export async function preload({ params, query }) {
-		const res1 = await this.fetch('blog.json');
+		const res1 = await this.fetch('blog/posts.json');
 		let posts = await res1.json();
 
 		const res2 = await this.fetch('blog/tags.json');

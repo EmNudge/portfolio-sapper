@@ -1,6 +1,7 @@
 import blogs from '../../../data/blog';
 
-const content = JSON.stringify(blogs);
+const blogsWithNoHtml = blogs.map(blogPost => ({ ...blogPost, html: 'N/A' }))
+const content = JSON.stringify(blogsWithNoHtml);
 
 export function get(req, res) {
   res.writeHead(200, {
