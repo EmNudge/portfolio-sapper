@@ -20,3 +20,8 @@ While we can use Node.js directly to read and then parse the provided files, it 
 Everything is genarated statically, but links within sapper try to be even faster. This leads to some weird areas, like icons not updated for different hashes on the `/reads` page when choosing specific tags.
 
 Another difficulty I've had is with page loads. I should have decreased the bundle size by a decent amount, yet clicking links seem to be even slower than going to them directly. I am really not sure why. The pages seem to work without JS though, which is cool.
+
+## ToDo
+The site was a rewrite of the previous, so I mostly consider it finished. Other than fixing up the 2 problems mentioned in `Difficulties`, I probably want to move the `reads` data out of `data/reads`. At the moment, it's a bit hard to manage. The filesystem is convinient and it allows me to trigger a Netlify redeploy using github, but it forces me to make a new commit every time I want an update. I'm not sure how I feel about using commits this way, since it also mixes up in my actual code updates. I'd also like my site's code to not be entirely tied to its contents. That's basically impossible when it comes to the HTML, but it's doable for these blogs.
+
+There's also the difficulty of organizing them and making edits afterward. The files are not ordered in my filesystem by their `"readAt"` date, just the date I made them. I'm planning on using the Notion API for this, but I'll have to wait until that becomes available. I could theoretically also use Notion then for the blogs, but I'd rather those be tied to the github. Notion would also restrict me in how to write the markdown, severely limiting how I can output it.
