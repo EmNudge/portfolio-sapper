@@ -56,13 +56,13 @@
 
 <div class="tags">
 	<a href="blog">#all</a>
-	{#each tags as tag, i}
+	{#each tags as tag, i (tag)}
 		<a href="blog/?tag={tag}" in:fade={{ delay: i * 50 }}>#{tag}</a>
 	{/each}
 </div>
 
 <div class="posts">
-	{#each posts as post, i}
+	{#each posts as post, i (post.slug)}
 		<div class="post" in:fly={{ delay: i * 50, y: 0, x: 50, duration: 250 }}>
 			<PostBanner {post} />
 		</div>

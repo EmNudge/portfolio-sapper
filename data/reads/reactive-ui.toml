@@ -1,0 +1,6 @@
+author = "Raph Levien"
+title = "Towards principled reactive UI"
+url = "https://raphlinus.github.io/rust/druid/2020/09/25/principled-reactive-ui.html"
+description = "The complications and processes behind building a UI framework"
+readAt = "Sep 26, 2020"
+createdAt = "Sep 25, 2020"
