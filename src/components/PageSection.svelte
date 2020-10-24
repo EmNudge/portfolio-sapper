@@ -12,7 +12,8 @@
 		margin: 60px 0;
 	}
 	section :global(svg) {
-		height: 100%;
+		height: 400px;
+    max-width: 100%;
   }
   
   @media screen and (max-width: 600px) {
