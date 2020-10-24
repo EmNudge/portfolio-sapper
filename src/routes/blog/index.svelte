@@ -27,13 +27,18 @@
 	.tags {
 		display: flex;
 		justify-content: center;
-		grid-gap: 10px;
 		padding: 20px;
+	}
+	.tags a {
+		margin: 0 10px;
 	}
 
 	.posts {
 		display: grid;
 		grid-gap: 10px;
+	}
+	.post {
+		margin: 10px 0;
 	}
 	@media screen and (max-width: 450px) {
 		.posts {

@@ -15,7 +15,6 @@
   nav {
     display: flex;
     justify-content: flex-end;
-    grid-gap: 15px;
   }
   nav a {
     padding: 5px;
@@ -23,6 +22,7 @@
     font-size: 1.2em;
     color: white;
     transition: .15s;
+    margin: 0 15px;
   }
   nav a:hover {
     color: var(--theme-color);
