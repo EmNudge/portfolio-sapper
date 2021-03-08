@@ -38,11 +38,19 @@ const langs = [
 	{ path: 'svg/technologies/languages/sass.svg', link: 'https://sass-lang.com/', name: 'Sass' }
 ];
 
-const database = [
-	{ path: 'svg/technologies/database/firebase.svg', link: 'https://firebase.google.com/', name: 'Firebase' },
-	{ path: 'svg/technologies/database/mongo.svg', link: 'https://www.mongodb.com/', name: 'Mongo DB' },
-	{ path: 'svg/technologies/database/node.png', link: 'https://nodejs.org/en/', name: 'Node.js' },
-	{ path: 'svg/technologies/database/graphql.svg', link: 'https://graphql.org/', name: 'Graph QL' }
+const other = [
+	{ path: 'svg/technologies/other/firebase.svg', link: 'https://firebase.google.com/', name: 'Firebase' },
+	{ path: 'svg/technologies/other/mongo.svg', link: 'https://www.mongodb.com/', name: 'Mongo DB' },
+	{ path: 'svg/technologies/other/node.png', link: 'https://nodejs.org/en/', name: 'Node.js' },
+	{ path: 'svg/technologies/other/deno.svg', link: 'https://deno.land/', name: 'Deno' },
+	{ path: 'svg/technologies/other/graphql.svg', link: 'https://graphql.org/', name: 'Graph QL' }
 ];
 
-export default { frontend, langs, database };
+const software = [
+	{ path: 'svg/technologies/software/figma.svg', link: 'https://www.figma.com/', name: 'Figma' },
+	{ path: 'svg/technologies/software/reaper.png', link: 'http://reaper.fm/', name: 'Reaper' },
+	{ path: 'svg/technologies/software/aftereffects.png', link: 'https://www.adobe.com/products/aftereffects.html', name: 'After Effects' },
+	{ path: 'svg/technologies/software/photoshop.svg', link: 'https://www.adobe.com/products/photoshop/landpa.html', name: 'Photoshop' },
+]
+
+export default { frontend, langs, other, software };

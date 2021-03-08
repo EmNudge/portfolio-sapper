@@ -2,6 +2,7 @@
 	export async function preload({ params, query }) {
 		const res = await this.fetch('technologies.json');
 		const technologies = await res.json();
+
 		return { technologies };
 	}
 </script>
